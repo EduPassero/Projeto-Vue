@@ -1,14 +1,69 @@
 {
-  "alunos": [
+  "professores": [
     {
-      "nome": "Luiz",
-      "sobrenome": "",
-      "id": 1
+      "id": 1,
+      "nome": "Eduardo"
     },
     {
-      "nome": "Carlos",
-      "sobrenome": "",
-      "id": 2
+      "id": 2,
+      "nome": "Barbara"
+    },
+    {
+      "id": 3,
+      "nome": "Luna"
+    }
+  ],
+
+  "alunos": [
+    {
+      "nome": "Alborghetti",
+      "sobrenome": "Luiz",
+      "dataNasc": "01/02/1988",
+      "id": 3,
+      "professor": {
+        "id": 1,
+        "nome": "Eduardo"
+      }
+    },
+    {
+      "nome": "Carlota",
+      "sobrenome": "Nóbrega",
+      "dataNasc": "01/06/1968",
+      "id": 4,
+      "professor": {
+        "id": 2,
+        "nome": "Barbara"
+      }
+    },
+    {
+      "nome": "Marcelo",
+      "sobrenome": "Nóbrega",
+      "dataNasc": "12/02/1990",
+      "id": 5,
+      "professor": {
+        "id": 3,
+        "nome": "Luna"
+      }
+    },
+    {
+      "nome": "Eduardor",
+      "sobrenome": "Parsser",
+      "dataNasc": "04/05/1994",
+      "id": 6,
+      "professor": {
+        "id": 2,
+        "nome": "Barbara"
+      }
+    },
+    {
+      "nome": "Albertone",
+      "sobrenome": "Mario",
+      "dataNasc": "13/12/1987",
+      "professor": {
+        "id": 1,
+        "nome": "Eduardo"
+      },
+      "id": 7
     }
   ]
 }
