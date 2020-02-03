@@ -18,7 +18,7 @@
 					<td>{{professor.qtdAlunos}}</td>
 				</tr>
 			</tbody>
-			<tfooter v-else>Ora porra!</tfooter>
+			<tfoot v-else>Ora porra!</tfoot>
 		</table>
 	</div>
 </template>

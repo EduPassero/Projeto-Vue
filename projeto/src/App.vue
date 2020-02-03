@@ -42,6 +42,7 @@ html {
 	width: 100%;
 }
 .btn_danger {
+	font-size: 0.8em !important;
 	background-color: rgb(204, 28, 28);
 }
 .btn {
@@ -49,6 +50,7 @@ html {
 	cursor: pointer;
 	border: 1px solid rgb(97, 97, 97);
 	color: white;
+	font-size: 1.2em;
 	font-weight: bold;
 	border-radius: 5px;
 	border-bottom: 3px solid rgb(138, 84, 84);
